@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COPD Prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Chronic Obstructive Pulmonary Disease Prediction</h1>
+        <div class="input-container">
+            <label for="age">Age:</label>
+            <input type="number" id="age" placeholder="Enter your age">
+        </div>
+        <div class="input-container">
+            <label for="smoking">Smoking History (in years):</label>
+            <input type="number" id="smoking" placeholder="Enter years of smoking">
+        </div>
+        <div class="input-container">
+            <label for="pollution">Type of Pollution Exposed to:</label>
+            <input type="text" id="pollution" placeholder="Enter the type of pollution">
+        </div>
+        <div class="input-container">
+            <label for="wheezing">Wheezing:</label>
+            <input type="text" id="wheezing" placeholder="Yes/No">
+        </div>
+        <div class="input-container">
+            <label for="swallowing">Swallowing Difficulty:</label>
+            <input type="text" id="swallowing" placeholder="Yes/No">
+        </div>
+        <div class="input-container">
+            <label for="cold">Frequent Cold:</label>
+            <input type="text" id="cold" placeholder="Yes/No">
+        </div>
+        <div class="input-container">
+            <label for="cough">Dry Cough:</label>
+            <input type="text" id="cough" placeholder="Yes/No">
+        </div>
+        
+        <button onclick="predict()">Predict</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

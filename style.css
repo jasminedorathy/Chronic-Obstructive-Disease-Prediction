@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    margin: 100px;
+    padding: 100px; /* Added units */
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.div{
+    background-image: url(""C:\jass_workspace\THUMBNAIL_sssss.jpg"");
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto', Arial, sans-serif; /* Added fallbacks */
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
